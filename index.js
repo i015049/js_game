@@ -125,7 +125,7 @@ function animate() {
     })
 }
 
-addEventListener('touchstart', (event) => 
+addEventListener('click', (event) => 
    {
        const angle = Math.atan2(
            event.clientY - canvas.height / 2,
